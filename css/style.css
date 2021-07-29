@@ -19,6 +19,9 @@ header {
 .navbar-item .nav-item {
     margin-left: 36px;
 }
+.navbar-item .nav-item a:hover {
+    color: #E77C40;
+}
 .navbar-item form button {
     margin-left: 100px;
     color: #ffffff;
@@ -76,6 +79,32 @@ header {
 .bike img{
     filter: grayscale(100%);
 }
+ /* latest news section  */
+ .latest-news .title h1 {
+    color: #0A0826;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+ }
+ .latest-news h5 {
+     color: #18191F;
+     font-size: 28px;
+     font-weight: 600;
+     line-height: 40px;
+ }
+ .latest-news button {
+    color: #E76F51;
+    background: #ffffff;
+    border: 1px solid #E76F51;
+    border-radius: 5px;
+    margin: 15px;
+    width: 150px;
+    height: 44px;
+ }
+ .latest-news button:hover {
+     background: #E76F51;
+     color: #ffffff;
+ }
 
 /* clients section  */
 .clients .title h1 {
@@ -168,4 +197,20 @@ header {
     width: 100px;
     height: 44px;
     margin-left: 10px;
+}
+
+/* footer section  */
+footer {
+    background: #0B0D17;
+}
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 24px;
+}
+footer a:hover {
+    color: #D9DBE1;
+}
+footer small {
+    color: #D9DBE1;
 }
