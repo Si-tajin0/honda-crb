@@ -214,3 +214,21 @@ footer a:hover {
 footer small {
     color: #D9DBE1;
 }
+.app-store {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width: 12rem;
+    margin-bottom: 20px;
+}
+.app-store i {
+    font-size: 40px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+.app-store button {
+    padding-right: 5px;
+    color: #ffffff;
+}
+.app-store button:hover {
+    color: #E77C40;
+}
