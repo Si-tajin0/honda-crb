@@ -1,0 +1,171 @@
+/* global  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+html,
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background-color: #264653;
+}
+/* navbar section  */
+.navbar-item  a{
+    color: #ffffff;
+}
+.navbar-item a span {
+    color: #E76F51;
+    font-weight: 900;
+}
+.navbar-item .nav-item {
+    margin-left: 36px;
+}
+.navbar-item form button {
+    margin-left: 100px;
+    color: #ffffff;
+    background: #E76F51;
+    padding: 10px 24px;
+    margin-top: 13px;
+}
+
+/* home section  */
+#home h1 {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 600;
+}
+#home p {
+    font-weight: 300;
+    color: #E0E0E0;
+    line-height: 24px;
+}
+#home .btn-home button{
+    color: #ffffff;
+    background: #E76F51;
+    border-radius: 5px;
+    padding: 10px;
+    width: 168px;
+    height: 44px;
+}
+
+/* feature section  */
+.features-bikes .title h1 {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 600;
+}
+.features-bikes .title p {
+    font-size: 14px;
+    color: #E76F51;
+    line-height: 21px;
+    font-weight: 600;
+}
+.title p {
+    position: relative;
+}
+.title p:after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+     width: 59px;
+     height: 1px;
+     background:#E76F51;
+}
+.bike img{
+    filter: grayscale(100%);
+}
+
+/* clients section  */
+.clients .title h1 {
+    color: #0A0826;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+} 
+.clients .title span {
+    color: #E76F51;
+}
+.clients .icon i {
+    color: #E77C40;
+    width: 22px;
+    height: 22px;
+}
+.clients .author {
+    color: #23A6F0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.clients .profession {
+    color: #252B42;
+    font-size: 14px;
+}
+
+
+/* Faq section  */
+.faq .title h1 {
+    color: #0D0925;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+}
+.faq .title span {
+    color: #E76F51;
+}
+/* gallery section   */
+.gallery .title h1 {
+    color: #0D0925;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+}
+.gallery .title span {
+    color: #E77C40;
+}
+.gallery h2 {
+    color: #0D0925;
+    position: relative;
+}
+.gallery h2:after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+     width: 150px;
+     height: 1px;
+     background:#E76F51;
+}
+.gallery h4 {
+    position: relative;
+}
+.gallery h4:after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+     width: 400px;
+     height: 1px;
+     background:#E76F51;
+}
+.gallery p {
+    margin-top: 20px;
+}
+/* contact section  */
+.contact {
+    background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.contact h1 {
+    color: #ffffff;
+}
+.contact button {
+    color: #ffffff;
+    background: #E76F51;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    height: 44px;
+    margin-left: 10px;
+}
